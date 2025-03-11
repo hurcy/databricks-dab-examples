@@ -40,7 +40,7 @@ targets:
     mode: development
     default: true
     workspace:
-      host: https://company-dev.cloud.databricks.com/
+      host: https://one-env-hurcy.cloud.databricks.com/
 
     # resource override
     ## Only create this schema in dev, for other targets manage with Terraform.

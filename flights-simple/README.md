@@ -1,5 +1,17 @@
 # flights_simple
 
+## prerequisite
+- create catalog with new external location
+- in metastore, grant permissions to test user
+   - CREATE CATALOG
+   - CREATE CONNECTION
+   - CREATE EXTERNAL LOCATION
+   - CREATE SERVICE CREDENTIAL
+   - CREATE STORAGE CREDENTIAL
+   - MANAGE ALLOWLIST
+   - USE CONNECTION
+
+
 The 'flights_simple' project is meant to show a simple project that includes what is needed to demonstrate best practices for developer workflow and CI/CD (Continuous Integration / Continuous Deployment). You will find bundle config files `databricks.yml` in the project directory which references bundle resources in the `resources/` directory. GitHub Action to run tests and deploy are found in the `.githubs/workflows` directory.
 
 ## tests
